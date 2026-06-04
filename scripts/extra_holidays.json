@@ -1,0 +1,55 @@
+[
+  {"country_code": "SA", "country_zh": "沙特阿拉伯", "country_en": "Saudi Arabia", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "SA", "country_zh": "沙特阿拉伯", "country_en": "Saudi Arabia", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "SA", "country_zh": "沙特阿拉伯", "country_en": "Saudi Arabia", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "AE", "country_zh": "阿联酋", "country_en": "UAE", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "AE", "country_zh": "阿联酋", "country_en": "UAE", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "AE", "country_zh": "阿联酋", "country_en": "UAE", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "QA", "country_zh": "卡塔尔", "country_en": "Qatar", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "QA", "country_zh": "卡塔尔", "country_en": "Qatar", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "QA", "country_zh": "卡塔尔", "country_en": "Qatar", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "KW", "country_zh": "科威特", "country_en": "Kuwait", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+  {"country_code": "KW", "country_zh": "科威特", "country_en": "Kuwait", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+
+  {"country_code": "BH", "country_zh": "巴林", "country_en": "Bahrain", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+  {"country_code": "BH", "country_zh": "巴林", "country_en": "Bahrain", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+
+  {"country_code": "OM", "country_zh": "阿曼", "country_en": "Oman", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "OM", "country_zh": "阿曼", "country_en": "Oman", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "OM", "country_zh": "阿曼", "country_en": "Oman", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "JO", "country_zh": "约旦", "country_en": "Jordan", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "JO", "country_zh": "约旦", "country_en": "Jordan", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "JO", "country_zh": "约旦", "country_en": "Jordan", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "LB", "country_zh": "黎巴嫩", "country_en": "Lebanon", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 2, "span_start": "2026-05-26", "span_end": "2026-05-27"},
+
+  {"country_code": "IQ", "country_zh": "伊拉克", "country_en": "Iraq", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+  {"country_code": "IQ", "country_zh": "伊拉克", "country_en": "Iraq", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+
+  {"country_code": "SY", "country_zh": "叙利亚", "country_en": "Syria", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+  {"country_code": "SY", "country_zh": "叙利亚", "country_en": "Syria", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 3, "span_start": "2026-05-26", "span_end": "2026-05-28"},
+
+  {"country_code": "PS", "country_zh": "巴勒斯坦", "country_en": "Palestine", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "PS", "country_zh": "巴勒斯坦", "country_en": "Palestine", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "PS", "country_zh": "巴勒斯坦", "country_en": "Palestine", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "IR", "country_zh": "伊朗", "country_en": "Iran", "region": "中东", "name": "宰牲节", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 1, "span_start": "2026-05-27", "span_end": "2026-05-27"},
+
+  {"country_code": "TR", "country_zh": "土耳其", "country_en": "Turkey", "region": "中东", "name": "古尔邦节（Kurban Bayramı）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "TR", "country_zh": "土耳其", "country_en": "Turkey", "region": "中东", "name": "古尔邦节（Kurban Bayramı）", "name_en": "Eid al-Adha", "date": "2026-05-28", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+  {"country_code": "TR", "country_zh": "土耳其", "country_en": "Turkey", "region": "中东", "name": "古尔邦节（Kurban Bayramı）", "name_en": "Eid al-Adha", "date": "2026-05-29", "span_days": 4, "span_start": "2026-05-26", "span_end": "2026-05-29"},
+
+  {"country_code": "AZ", "country_zh": "阿塞拜疆", "country_en": "Azerbaijan", "region": "中亚", "name": "宰牲节（Qurban Bayramı）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 2, "span_start": "2026-05-26", "span_end": "2026-05-27"},
+
+  {"country_code": "UZ", "country_zh": "乌兹别克斯坦", "country_en": "Uzbekistan", "region": "中亚", "name": "宰牲节（Qurbon Hayit）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 2, "span_start": "2026-05-26", "span_end": "2026-05-27"},
+
+  {"country_code": "KG", "country_zh": "吉尔吉斯斯坦", "country_en": "Kyrgyzstan", "region": "中亚", "name": "宰牲节（Kurman Ait）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 1, "span_start": "2026-05-27", "span_end": "2026-05-27"},
+
+  {"country_code": "TJ", "country_zh": "塔吉克斯坦", "country_en": "Tajikistan", "region": "中亚", "name": "宰牲节（Idi Qurbon）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 2, "span_start": "2026-05-26", "span_end": "2026-05-27"},
+
+  {"country_code": "TM", "country_zh": "土库曼斯坦", "country_en": "Turkmenistan", "region": "中亚", "name": "宰牲节（Gurban Bayramy）", "name_en": "Eid al-Adha", "date": "2026-05-27", "span_days": 1, "span_start": "2026-05-27", "span_end": "2026-05-27"}
+]
