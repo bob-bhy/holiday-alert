@@ -561,7 +561,7 @@ def main():
     parser = argparse.ArgumentParser(description="生成节假日日历网页")
     parser.add_argument("--year", type=int, default=datetime.now().year)
     parser.add_argument("--month", type=int, default=datetime.now().month)
-    parser.add_argument("--output", default=os.path.join(SCRIPT_DIR, "..", "web", "index.html"))
+    parser.add_argument("--output", default=os.path.join(SCRIPT_DIR, "..", "docs", "index.html"))
     args = parser.parse_args()
 
     print(f"📅 正在生成 {args.year}年{args.month}月 节假日日历...", file=sys.stderr)
