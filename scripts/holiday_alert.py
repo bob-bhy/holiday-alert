@@ -505,29 +505,56 @@ def format_wecom_message(holidays_by_date, unsupported_countries, extra_holidays
     return "\n".join(lines)
 
 
-def post_to_wecom(webhook_url, message):
-    payload = json.dumps({
-        "msgtype": "markdown",
-        "markdown": {"content": message}
-    }, ensure_ascii=False).encode("utf-8")
+WEB_URL = "https://bob-bhy.github.io/holiday-alert/"
 
+
+def _wecom_post(webhook_url, payload_dict):
+    data = json.dumps(payload_dict, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(
-        webhook_url,
-        data=payload,
+        webhook_url, data=data,
         headers={"Content-Type": "application/json; charset=utf-8"},
         method="POST"
     )
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             result = json.loads(resp.read().decode("utf-8"))
-            if result.get("errcode") == 0:
-                print("✅ 推送成功", file=sys.stderr)
-                return True
-            print(f"❌ 推送失败: {result}", file=sys.stderr)
-            return False
+            return result.get("errcode") == 0, result
     except Exception as e:
-        print(f"❌ 推送异常: {e}", file=sys.stderr)
+        return False, str(e)
+
+
+def post_to_wecom(webhook_url, message):
+    # 1) 发送 markdown 节假日内容
+    ok, res = _wecom_post(webhook_url, {
+        "msgtype": "markdown",
+        "markdown": {"content": message}
+    })
+    if ok:
+        print("✅ 节假日消息推送成功", file=sys.stderr)
+    else:
+        print(f"❌ 节假日消息推送失败: {res}", file=sys.stderr)
         return False
+
+    # 2) 发送 news 卡片（本月完整日历）
+    today = datetime.now()
+    month_zh = f"{today.year}年{today.month}月"
+    ok2, res2 = _wecom_post(webhook_url, {
+        "msgtype": "news",
+        "news": {
+            "articles": [{
+                "title": f"📊 {month_zh} 完整节假日日历",
+                "description": f"覆盖{len(COUNTRIES)}国 · 当月日历视图 · 点击日期查看详情 · 支持地区筛选",
+                "url": WEB_URL,
+                "picurl": ""
+            }]
+        }
+    })
+    if ok2:
+        print("✅ 日历卡片推送成功", file=sys.stderr)
+    else:
+        print(f"⚠️ 日历卡片推送失败: {res2}", file=sys.stderr)
+
+    return True
 
 
 def load_config():
